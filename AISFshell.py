@@ -1,3 +1,44 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import torch
+import torch.nn as nn
+import torch.optim as optim
+
+from qiskit import transpile, QuantumCircuit
+from qiskit_aer import AerSimulator
+from qiskit_ibm_runtime import QiskitRuntimeService, SamplerV2 as Sampler, Session
+from qutip import Qobj, basis, sigmaz, sigmax, mesolve
+from qiskit_experiments.library import StandardRB
+from qiskit_aer.noise import NoiseModel, depolarizing_error
+
+from scipy.special import softmax
+import time
+
+#FakeBrisbane
+from qutip import Qobj, basis, sigmaz, sigmax, mesolve
+#from qiskit.providers.fake_provider import FakeBrisbane
+#from qiskit_aer.noise.providers import FakeBrisbane
+
+
+import torch
+from torch import nn
+from scipy.special import softmax
+import time
+import numpy as np
+
+
+import numpy as np
+import matplotlib.pyplot as plt
+#from qiskit import transpile
+#from qiskit.circuit import QuantumCircuit, transpile
+from qiskit_aer import AerSimulator # after pip install --upgrade qiskit qiskit-aer, this should work fine
+from qiskit_ibm_runtime import QiskitRuntimeService, SamplerV2 as Sampler, Session #, transpile # updated "tanspile" to "transpile"
+from qutip import Qobj, basis, sigmaz, sigmax, mesolve
+import torch
+from torch import nn
+from scipy.special import softmax
+import time
+
 class ZSGQuantumBridge:
     def __init__(self, n_logical_qubits=2):
         self.n_qubits = n_logical_qubits
