@@ -1,6 +1,6 @@
 python AISFshell.py
 
-DiffusionAgent: LLaDA online—masking and predicting with flair!
+DiffusionAgent: LLaDA online—masking and predicting with flair!\n
 EntropyBot 3000: Core agent activated—entropy chaos, meet your match!
 ZSG Framework initialized—welcome to the MIND BOGGLER Science Fair!
 DFSN enabled: Agents syncing for chaos control!
