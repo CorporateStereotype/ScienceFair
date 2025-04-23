@@ -1,7 +1,6 @@
 python AISFshell.py
 
 DiffusionAgent: LLaDA online—masking and predicting with flair!
-
 EntropyBot 3000: Core agent activated—entropy chaos, meet your match!
 ZSG Framework initialized—welcome to the MIND BOGGLER Science Fair!
 DFSN enabled: Agents syncing for chaos control!
@@ -28,10 +27,12 @@ Result: Generated text: 412 961 230 179 660 654 234 178 688 980
 Explanation: Text from Quantum AI LLM.
 Science Fair> run_llm
 Result: Generated text: 87 141 984 129 123 229 471 323 58 908
+
 Explanation: Text from Quantum AI LLM.
 Science Fair> run_sim
 Result: Simulation complete.
 Explanation: Simulated 10 qubits. Statevector (first 4): ['0.031+0.000j', '0.031+0.000j', '0.031+0.000j', '0.031+0.000j']
+
 Science Fair> status
 Result: System active
 Explanation: ZSG Episode 1, Iteration 5. Agents: 4. Qubits: 10
