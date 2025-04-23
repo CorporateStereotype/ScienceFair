@@ -1,3 +1,16 @@
+
+pip install qiskit-aer
+pip install qiskit-ibm-runtime
+pip install qiskit
+pip install qiskit-experiments
+pip install qutip
+pip install torch
+pip install matplotlib
+pip install numpy
+pip install --upgrade qiskit qiskit-aer qiskit-ibm-runtime
+pip install qiskit qiskit-ibm-runtime --upgrade
+
+
 python AISFshell.py
 
 DiffusionAgent: LLaDA online—masking and predicting with flair!
