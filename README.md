@@ -1,5 +1,4 @@
-There are additional agents and features in the \
-Run the AI Science Fair requires the following packages.
+Science Fair AI Agents run with the following packages.
 
 pip install qiskit-aer
 
@@ -21,6 +20,8 @@ pip install --upgrade qiskit qiskit-aer qiskit-ibm-runtime
 
 pip install qiskit qiskit-ibm-runtime --upgrade
 
+________________________________________________________
+This is a scaled down Science Fair implementation.
 
 python AISFshell.py
 
@@ -75,6 +76,8 @@ Science Fair> status
 Result: System active 
 Explanation: ZSG Episode 1, Iteration 5. Agents: 4. Qubits: 10 
 
+__________________________________________________
+Run the full Science Fair framework.
 
 python AIScienceFair.py
 
