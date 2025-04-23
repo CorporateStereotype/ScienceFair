@@ -25,24 +25,36 @@ status: Check system state
 exit: Quit shell
 
 Science Fair> run_llada
-EntropyBot 3000: Chaos alert! LLaDA crashed with 'NoneType' object has no attribute 'py_zero_math'
+
+EntropyBot 3000: Chaos alert! LLaDA crashed with 'NoneType' object has no attribute 'py_zero_math' 
 Result: LLaDA crashed!
-Explanation: Check EntropyBot 3000’s chaos alert.
-Science Fair> run_llm
-Result: Generated text: 412 961 230 179 660 654 234 178 688 980
+Explanation: Check EntropyBot 3000’s chaos alert.  
+
+Science Fair> run_llm 
+
+Result: Generated text: 412 961 230 179 660 654 234 178 688 980 
 Explanation: Text from Quantum AI LLM.
-Science Fair> run_llm
+
+Science Fair> run_llm 
+
 Result: Generated text: 87 141 984 129 123 229 471 323 58 908
 
 Explanation: Text from Quantum AI LLM.
+
 Science Fair> run_sim
-Result: Simulation complete.
+
+Result: Simulation complete. 
 Explanation: Simulated 10 qubits. Statevector (first 4): ['0.031+0.000j', '0.031+0.000j', '0.031+0.000j', '0.031+0.000j']
 
 Science Fair> status
-Result: System active
-Explanation: ZSG Episode 1, Iteration 5. Agents: 4. Qubits: 10
-Science Fair> run_q
+
+Result: System active 
+Explanation: ZSG Episode 1, Iteration 5. Agents: 4. Qubits: 10 
+
+Science Fair> run_q 
+
 Running on ibm_kyiv
+
 Result: Hardware run complete.
+
 Explanation: Ran 10 qubits on IBM Quantum. Top 5 counts: {'1101110001': 1, '1011010101': 1, '0101111100': 7, '0100001000': 6, '0000101000': 1}
