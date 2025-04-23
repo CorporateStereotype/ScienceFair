@@ -1,29 +1,40 @@
-# ScienceFair
-ScienceFair
-Author: Flint Adkins Date: 20250307
+python AISFshell.py
 
-Attribution (Credit Must Be Given)
-You are free to view, read, and cite this work, but you must attribute credit to the original creator, Flint Adkins in any use of the ideas, frameworks, concepts, or mathematical models presented in this work. Proper attribution must include:
-The author's name (Flint Adkins).
-The title of the work (Formula For Zero: Unified Theoretical Framework).
-A citation link to the https://doi.org/10.17605/OSF.IO/3TN7F or the source where the work is hosted.
-Git Repsitory: https://github.com/CorporateStereotype
-Non-Commercial Use Only
-You may not use this work for commercial purposes. This includes selling, licensing, or using the concepts, mathematical models, designs, or frameworks for any commercial, for-profit, or monetary gain. To seek commercial use rights, you must obtain prior written permission from the author, Flint Adkins.
-
-No Derivatives
-You may not modify, remix, adapt, or create derivative works from this content without explicit permission from the author, Flint Adkins.
-
-You can read, share, and cite the work as it is, but you cannot modify, change, or create new works that are "based on" this framework without permission.
-To obtain permission to create derivatives, you must contact the author directly.
-Right to Request Removal
-The author, Flint Adkins, reserves the right to request the removal of unauthorized copies, commercial use, or derivative works that violate the terms of this license.
-
-Legal Enforcement
-Any use of this work that violates the terms of this license is subject to copyright enforcement under international copyright law. If you wish to negotiate rights for commercial use, derivatives, or modifications, please contact the author at flintadkins@gmail.com.
-
-Limitations and Disclaimers
-This work is provided "as-is," without warranty of any kind, either expressed or implied. The author disclaims all liability for potential misuse or misinterpretation of the contents.
-
-Applicable Jurisdiction
-This license is governed by the copyright laws of United States of America. Any disputes related to this license will be resolved according to the laws of United States of America.
+DiffusionAgent: LLaDA online—masking and predicting with flair!
+EntropyBot 3000: Core agent activated—entropy chaos, meet your match!
+ZSG Framework initialized—welcome to the MIND BOGGLER Science Fair!
+DFSN enabled: Agents syncing for chaos control!
+ZSG activated for Episode 1, Iteration 5
+Welcome to the MIND BOGGLER Science Fair Shell! Type 'help' for commands.
+Science Fair> help
+Result: Available commands
+Explanation: help: Show this message
+run_sim: Run F0Z Chip simulation
+run_q: Run on IBM Quantum
+plot_q: Visualize hardware counts
+run_llm: Generate text with Quantum AI
+run_orchestra: Generate orchestral score
+run_llada: Simulate LLaDA diffusion
+plot_llada: Visualize LLaDA results
+status: Check system state
+exit: Quit shell
+Science Fair> run_llada
+EntropyBot 3000: Chaos alert! LLaDA crashed with 'NoneType' object has no attribute 'py_zero_math'
+Result: LLaDA crashed!
+Explanation: Check EntropyBot 3000’s chaos alert.
+Science Fair> run_llm
+Result: Generated text: 412 961 230 179 660 654 234 178 688 980
+Explanation: Text from Quantum AI LLM.
+Science Fair> run_llm
+Result: Generated text: 87 141 984 129 123 229 471 323 58 908
+Explanation: Text from Quantum AI LLM.
+Science Fair> run_sim
+Result: Simulation complete.
+Explanation: Simulated 10 qubits. Statevector (first 4): ['0.031+0.000j', '0.031+0.000j', '0.031+0.000j', '0.031+0.000j']
+Science Fair> status
+Result: System active
+Explanation: ZSG Episode 1, Iteration 5. Agents: 4. Qubits: 10
+Science Fair> run_q
+Running on ibm_kyiv
+Result: Hardware run complete.
+Explanation: Ran 10 qubits on IBM Quantum. Top 5 counts: {'1101110001': 1, '1011010101': 1, '0101111100': 7, '0100001000': 6, '0000101000': 1}
