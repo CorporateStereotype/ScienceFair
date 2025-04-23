@@ -5,19 +5,25 @@ EntropyBot 3000: Core agent activated—entropy chaos, meet your match!
 ZSG Framework initialized—welcome to the MIND BOGGLER Science Fair!
 DFSN enabled: Agents syncing for chaos control!
 ZSG activated for Episode 1, Iteration 5
+
 Welcome to the MIND BOGGLER Science Fair Shell! Type 'help' for commands.
+
+
 Science Fair> help
+
 Result: Available commands
 Explanation: help: Show this message
+
 run_sim: Run F0Z Chip simulation
-run_q: Run on IBM Quantum
-plot_q: Visualize hardware counts
-run_llm: Generate text with Quantum AI
-run_orchestra: Generate orchestral score
-run_llada: Simulate LLaDA diffusion
-plot_llada: Visualize LLaDA results
-status: Check system state
+run_q: Run on IBM Quantum 
+plot_q: Visualize hardware counts 
+run_llm: Generate text with Quantum AI 
+run_orchestra: Generate orchestral score 
+run_llada: Simulate LLaDA diffusion 
+plot_llada: Visualize LLaDA results 
+status: Check system state 
 exit: Quit shell
+
 Science Fair> run_llada
 EntropyBot 3000: Chaos alert! LLaDA crashed with 'NoneType' object has no attribute 'py_zero_math'
 Result: LLaDA crashed!
