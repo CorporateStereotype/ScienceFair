@@ -1,0 +1,10 @@
+numpy
+torch
+qiskit  
+qiskit_aer  
+qiskit_ibm_runtime
+qutip  
+qiskit_experiments
+qiskit_aer
+scipy 
+matplotlib
